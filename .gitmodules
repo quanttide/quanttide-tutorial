@@ -1,0 +1,3 @@
+[submodule "qtdata/quanttide-tutorial-of-data-engineering"]
+	path = qtdata/quanttide-tutorial-of-data-engineering
+	url = https://github.com/quanttide/quanttide-tutorial-of-data-engineering.git
