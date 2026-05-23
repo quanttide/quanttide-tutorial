@@ -1,9 +1,9 @@
-[submodule "qtdata/quanttide-tutorial-of-data-engineering"]
-	path = qtdata/quanttide-tutorial-of-data-engineering
+[submodule "data/quanttide-tutorial-of-data-engineering"]
+	path = data/quanttide-tutorial-of-data-engineering
 	url = https://github.com/quanttide/quanttide-tutorial-of-data-engineering.git
-[submodule "qtdata/quanttide-tutorial-of-big-data"]
-	path = qtdata/quanttide-tutorial-of-big-data
+[submodule "data/quanttide-tutorial-of-big-data"]
+	path = data/quanttide-tutorial-of-big-data
 	url = https://github.com/quanttide/quanttide-tutorial-of-big-data.git
-[submodule "qtdata/quanttide-tutorial-of-data-analytics"]
-	path = qtdata/quanttide-tutorial-of-data-analytics
+[submodule "data/quanttide-tutorial-of-data-analytics"]
+	path = data/quanttide-tutorial-of-data-analytics
 	url = https://github.com/quanttide/quanttide-tutorial-of-data-analytics.git
