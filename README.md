@@ -31,7 +31,7 @@ general 通识  →  disciplines 学科  →  default 主体
 | 序 | 层 | 目录 | 判定标准 | 数量 |
 |:--|:--|:--|:--|--:|
 | 1 | 通识层 | `general/` | 跨学科的共同基础，不属于任何单一学科 | 3 |
-| 2 | 学科层 | `disciplines/<学科>/` | 学科训练，以及归属于该学科的量潮领域知识 | 67 |
+| 2 | 学科层 | `disciplines/<学科>/` | 学科训练，以及归属于该学科的量潮领域知识 | 69 |
 | 3 | 主体层 | `default/` | 法人主体自己的工作教程 | 1 |
 
 三条原则：
@@ -54,7 +54,7 @@ general 通识  →  disciplines 学科  →  default 主体
 | [`quanttide-tutorial-of-readme`](general/readme) | 量潮基础教程 |
 | [`quanttide-tutorial-of-writing`](general/writing) | 量潮写作教程 |
 
-### 学科层（67）
+### 学科层（69）
 
 #### 计算机科学与技术（22）
 
@@ -120,16 +120,18 @@ general 通识  →  disciplines 学科  →  default 主体
 | [`quanttide-tutorial-of-narrative-engineering`](disciplines/journalism/narrative-engineering) | 量潮叙事工程教程 |
 | [`quanttide-tutorial-of-social-media`](disciplines/journalism/social-media) | 量潮新媒体运营教程 |
 
-#### 管理学（23）
+#### 管理学（25）
 
 | 教程 | 定位 |
 |:--|:--|
 | [`quanttide-tutorial-of-academic-research`](disciplines/management/academic-research) | 量潮学术研究教程 |
 | [`quanttide-tutorial-of-asset-management`](disciplines/management/asset-management) | 量潮数字资产管理教程 |
+| [`quanttide-tutorial-of-business-development`](disciplines/management/business-development) | 量潮商务拓展教程 |
 | [`quanttide-tutorial-of-collaboration`](disciplines/management/collaboration) | 量潮团队协作教程 |
 | [`quanttide-tutorial-of-communication-management`](disciplines/management/communication-management) | 量潮沟通管理教程 |
 | [`quanttide-tutorial-of-customer-relations`](disciplines/management/customer-relations) | 量潮客户关系教程 |
 | [`quanttide-tutorial-of-customer-support`](disciplines/management/customer-support) | 量潮客户支持教程 |
+| [`quanttide-tutorial-of-deliberation-management`](disciplines/management/deliberation-management) | 量潮议事管理教程 |
 | [`quanttide-tutorial-of-entrepreneurial-management`](disciplines/management/entrepreneurial-management) | 量潮创业管理教程 |
 | [`quanttide-tutorial-of-execution-management`](disciplines/management/execution-management) | 量潮执行管理教程 |
 | [`quanttide-tutorial-of-finance-management`](disciplines/management/finance-management) | 量潮财务管理教程 |
@@ -184,13 +186,13 @@ general 通识  →  disciplines 学科  →  default 主体
 ```text
 quanttide-tutorial/
 ├── general/                     # 通识层：3 个教程
-├── disciplines/                 # 学科层：按学科分目录（10 个学科，67 个教程）
+├── disciplines/                 # 学科层：按学科分目录（10 个学科，69 个教程）
 │   ├── computer-science/        # 计算机科学与技术（22）
 │   ├── design/                  # 设计学（1）
 │   ├── economics/               # 经济学（12）
 │   ├── education/               # 教育学（2）
 │   ├── journalism/              # 新闻传播学（2）
-│   ├── management/              # 管理学（23）
+│   ├── management/              # 管理学（25）
 │   ├── mathematics/             # 数学（2）
 │   ├── philosophy/              # 哲学（1）
 │   ├── psychology/              # 心理学（1）

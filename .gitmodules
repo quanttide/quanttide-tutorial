@@ -130,6 +130,9 @@
 [submodule "disciplines/management/asset-management"]
 	path = disciplines/management/asset-management
 	url = https://github.com/quanttide/quanttide-tutorial-of-asset-management.git
+[submodule "disciplines/management/business-development"]
+	path = disciplines/management/business-development
+	url = https://github.com/quanttide/quanttide-tutorial-of-business-development.git
 [submodule "disciplines/management/collaboration"]
 	path = disciplines/management/collaboration
 	url = https://github.com/quanttide/quanttide-tutorial-of-collaboration.git
@@ -142,6 +145,9 @@
 [submodule "disciplines/management/customer-support"]
 	path = disciplines/management/customer-support
 	url = https://github.com/quanttide/quanttide-tutorial-of-customer-support.git
+[submodule "disciplines/management/deliberation-management"]
+	path = disciplines/management/deliberation-management
+	url = https://github.com/quanttide/quanttide-tutorial-of-deliberation-management.git
 [submodule "disciplines/management/entrepreneurial-management"]
 	path = disciplines/management/entrepreneurial-management
 	url = https://github.com/quanttide/quanttide-tutorial-of-entrepreneurial-management.git

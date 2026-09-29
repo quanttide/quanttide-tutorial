@@ -16,6 +16,8 @@
 - 原 `data/` 下 3 个子模块迁入 `disciplines/computer-science/`：`big-data`、`data-analytics`、`data-engineering`
 - 教程清单全量登记：挂载 70 个教程子仓库（通识 3 + 学科 66 + 主体 1）
 - 新增子模块 `disciplines/management/market-management`（营销管理教程）：从量潮科技工作教程迁出 `market/`，教程由 70 增至 71（学科 67）
+- 新增子模块 `disciplines/management/business-development`（商务拓展教程）、`disciplines/management/deliberation-management`（议事管理教程）：教程由 71 增至 73（学科 69）
+- 同步公司教程迁出：`agent-engineering`、`asset-management`、`communication-management`、`devops`、`finance-management`、`organization-management`、`open-source`、`social-media`、`strategy-management`、`narrative-engineering` 十个领域教程接收迁移内容，公司教程收敛为主体层（入门 + 六条业务线 + 附录）
 - `.gitmodules`、README 清单与结构树、AGENTS 落位表、CONTRIBUTING 结构树一律按学习顺序排列
 - README 重写：仓库定位、类型分工、分层与学习顺序、教程清单（按学科分组）、目录结构、快速开始
 
