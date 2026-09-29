@@ -7,9 +7,15 @@
 [submodule "general/writing"]
 	path = general/writing
 	url = https://github.com/quanttide/quanttide-tutorial-of-writing.git
+[submodule "disciplines/computer-science/agent-engineering"]
+	path = disciplines/computer-science/agent-engineering
+	url = https://github.com/quanttide/quanttide-tutorial-of-agent-engineering.git
 [submodule "disciplines/computer-science/aigc-source-code"]
 	path = disciplines/computer-science/aigc-source-code
 	url = https://github.com/quanttide/quanttide-tutorial-of-aigc-source-code.git
+[submodule "disciplines/computer-science/authorization-engineering"]
+	path = disciplines/computer-science/authorization-engineering
+	url = https://github.com/quanttide/quanttide-tutorial-of-authorization-engineering.git
 [submodule "disciplines/computer-science/big-data"]
 	path = disciplines/computer-science/big-data
 	url = https://github.com/quanttide/quanttide-tutorial-of-big-data.git
@@ -25,9 +31,15 @@
 [submodule "disciplines/computer-science/data-analytics"]
 	path = disciplines/computer-science/data-analytics
 	url = https://github.com/quanttide/quanttide-tutorial-of-data-analytics.git
+[submodule "disciplines/computer-science/data-engineering"]
+	path = disciplines/computer-science/data-engineering
+	url = https://github.com/quanttide/quanttide-tutorial-of-data-engineering.git
 [submodule "disciplines/computer-science/deep-learning"]
 	path = disciplines/computer-science/deep-learning
 	url = https://github.com/quanttide/quanttide-tutorial-of-deep-learning.git
+[submodule "disciplines/computer-science/devops"]
+	path = disciplines/computer-science/devops
+	url = https://github.com/quanttide/quanttide-tutorial-of-devops.git
 [submodule "disciplines/computer-science/fastapi"]
 	path = disciplines/computer-science/fastapi
 	url = https://github.com/quanttide/quanttide-tutorial-of-fastapi.git
@@ -40,6 +52,9 @@
 [submodule "disciplines/computer-science/introduction-to-computer-systems"]
 	path = disciplines/computer-science/introduction-to-computer-systems
 	url = https://github.com/quanttide/quanttide-tutorial-of-introduction-to-computer-systems.git
+[submodule "disciplines/computer-science/knowledge-engineering"]
+	path = disciplines/computer-science/knowledge-engineering
+	url = https://github.com/quanttide/quanttide-tutorial-of-knowledge-engineering.git
 [submodule "disciplines/computer-science/machine-learning"]
 	path = disciplines/computer-science/machine-learning
 	url = https://github.com/quanttide/quanttide-tutorial-of-machine-learning.git
@@ -52,6 +67,15 @@
 [submodule "disciplines/computer-science/python"]
 	path = disciplines/computer-science/python
 	url = https://github.com/quanttide/quanttide-tutorial-of-python.git
+[submodule "disciplines/computer-science/software-engineering"]
+	path = disciplines/computer-science/software-engineering
+	url = https://github.com/quanttide/quanttide-tutorial-of-software-engineering.git
+[submodule "disciplines/computer-science/vibe-coding"]
+	path = disciplines/computer-science/vibe-coding
+	url = https://github.com/quanttide/quanttide-tutorial-of-vibe-coding.git
+[submodule "disciplines/design/interaction-design"]
+	path = disciplines/design/interaction-design
+	url = https://github.com/quanttide/quanttide-tutorial-of-interaction-design.git
 [submodule "disciplines/economics/contract-theory"]
 	path = disciplines/economics/contract-theory
 	url = https://github.com/quanttide/quanttide-tutorial-of-contract-theory.git
@@ -76,6 +100,9 @@
 [submodule "disciplines/economics/monetary-economics"]
 	path = disciplines/economics/monetary-economics
 	url = https://github.com/quanttide/quanttide-tutorial-of-monetary-economics.git
+[submodule "disciplines/economics/payment-engineering"]
+	path = disciplines/economics/payment-engineering
+	url = https://github.com/quanttide/quanttide-tutorial-of-payment-engineering.git
 [submodule "disciplines/economics/public-economics"]
 	path = disciplines/economics/public-economics
 	url = https://github.com/quanttide/quanttide-tutorial-of-public-economics.git
@@ -85,15 +112,84 @@
 [submodule "disciplines/economics/token-economics"]
 	path = disciplines/economics/token-economics
 	url = https://github.com/quanttide/quanttide-tutorial-of-token-economics.git
+[submodule "disciplines/education/course-development"]
+	path = disciplines/education/course-development
+	url = https://github.com/quanttide/quanttide-tutorial-of-course-development.git
+[submodule "disciplines/education/learning-management"]
+	path = disciplines/education/learning-management
+	url = https://github.com/quanttide/quanttide-tutorial-of-learning-management.git
+[submodule "disciplines/journalism/narrative-engineering"]
+	path = disciplines/journalism/narrative-engineering
+	url = https://github.com/quanttide/quanttide-tutorial-of-narrative-engineering.git
+[submodule "disciplines/journalism/social-media"]
+	path = disciplines/journalism/social-media
+	url = https://github.com/quanttide/quanttide-tutorial-of-social-media.git
+[submodule "disciplines/management/academic-research"]
+	path = disciplines/management/academic-research
+	url = https://github.com/quanttide/quanttide-tutorial-of-academic-research.git
+[submodule "disciplines/management/asset-management"]
+	path = disciplines/management/asset-management
+	url = https://github.com/quanttide/quanttide-tutorial-of-asset-management.git
+[submodule "disciplines/management/collaboration"]
+	path = disciplines/management/collaboration
+	url = https://github.com/quanttide/quanttide-tutorial-of-collaboration.git
+[submodule "disciplines/management/communication-management"]
+	path = disciplines/management/communication-management
+	url = https://github.com/quanttide/quanttide-tutorial-of-communication-management.git
+[submodule "disciplines/management/customer-relations"]
+	path = disciplines/management/customer-relations
+	url = https://github.com/quanttide/quanttide-tutorial-of-customer-relations.git
+[submodule "disciplines/management/customer-support"]
+	path = disciplines/management/customer-support
+	url = https://github.com/quanttide/quanttide-tutorial-of-customer-support.git
+[submodule "disciplines/management/entrepreneurial-management"]
+	path = disciplines/management/entrepreneurial-management
+	url = https://github.com/quanttide/quanttide-tutorial-of-entrepreneurial-management.git
+[submodule "disciplines/management/execution-management"]
+	path = disciplines/management/execution-management
+	url = https://github.com/quanttide/quanttide-tutorial-of-execution-management.git
+[submodule "disciplines/management/finance-management"]
+	path = disciplines/management/finance-management
+	url = https://github.com/quanttide/quanttide-tutorial-of-finance-management.git
 [submodule "disciplines/management/financial-accounting"]
 	path = disciplines/management/financial-accounting
 	url = https://github.com/quanttide/quanttide-tutorial-of-financial-accounting.git
+[submodule "disciplines/management/founding-cloud-providers"]
+	path = disciplines/management/founding-cloud-providers
+	url = https://github.com/quanttide/quanttide-tutorial-of-founding-cloud-providers.git
+[submodule "disciplines/management/growth-management"]
+	path = disciplines/management/growth-management
+	url = https://github.com/quanttide/quanttide-tutorial-of-growth-management.git
+[submodule "disciplines/management/human-resources"]
+	path = disciplines/management/human-resources
+	url = https://github.com/quanttide/quanttide-tutorial-of-human-resources.git
+[submodule "disciplines/management/knowledge-work"]
+	path = disciplines/management/knowledge-work
+	url = https://github.com/quanttide/quanttide-tutorial-of-knowledge-work.git
 [submodule "disciplines/management/management"]
 	path = disciplines/management/management
 	url = https://github.com/quanttide/quanttide-tutorial-of-management.git
 [submodule "disciplines/management/open-source"]
 	path = disciplines/management/open-source
 	url = https://github.com/quanttide/quanttide-tutorial-of-open-source.git
+[submodule "disciplines/management/organization-management"]
+	path = disciplines/management/organization-management
+	url = https://github.com/quanttide/quanttide-tutorial-of-organization-management.git
+[submodule "disciplines/management/product-design"]
+	path = disciplines/management/product-design
+	url = https://github.com/quanttide/quanttide-tutorial-of-product-design.git
+[submodule "disciplines/management/product-development"]
+	path = disciplines/management/product-development
+	url = https://github.com/quanttide/quanttide-tutorial-of-product-development.git
+[submodule "disciplines/management/product-operations"]
+	path = disciplines/management/product-operations
+	url = https://github.com/quanttide/quanttide-tutorial-of-product-operations.git
+[submodule "disciplines/management/project-management"]
+	path = disciplines/management/project-management
+	url = https://github.com/quanttide/quanttide-tutorial-of-project-management.git
+[submodule "disciplines/management/strategy-management"]
+	path = disciplines/management/strategy-management
+	url = https://github.com/quanttide/quanttide-tutorial-of-strategy-management.git
 [submodule "disciplines/mathematics/fourier-analysis"]
 	path = disciplines/mathematics/fourier-analysis
 	url = https://github.com/quanttide/quanttide-tutorial-of-fourier-analysis.git
@@ -103,108 +199,12 @@
 [submodule "disciplines/philosophy/philosophy"]
 	path = disciplines/philosophy/philosophy
 	url = https://github.com/quanttide/quanttide-tutorial-of-philosophy.git
+[submodule "disciplines/psychology/cognitive-engineering"]
+	path = disciplines/psychology/cognitive-engineering
+	url = https://github.com/quanttide/quanttide-tutorial-of-cognitive-engineering.git
 [submodule "disciplines/sociology/social-work"]
 	path = disciplines/sociology/social-work
 	url = https://github.com/quanttide/quanttide-tutorial-of-social-work.git
-[submodule "domains/academic-research"]
-	path = domains/academic-research
-	url = https://github.com/quanttide/quanttide-tutorial-of-academic-research.git
-[submodule "domains/agent-engineering"]
-	path = domains/agent-engineering
-	url = https://github.com/quanttide/quanttide-tutorial-of-agent-engineering.git
-[submodule "domains/asset-management"]
-	path = domains/asset-management
-	url = https://github.com/quanttide/quanttide-tutorial-of-asset-management.git
-[submodule "domains/authorization-engineering"]
-	path = domains/authorization-engineering
-	url = https://github.com/quanttide/quanttide-tutorial-of-authorization-engineering.git
-[submodule "domains/cognitive-engineering"]
-	path = domains/cognitive-engineering
-	url = https://github.com/quanttide/quanttide-tutorial-of-cognitive-engineering.git
-[submodule "domains/collaboration"]
-	path = domains/collaboration
-	url = https://github.com/quanttide/quanttide-tutorial-of-collaboration.git
-[submodule "domains/communication-management"]
-	path = domains/communication-management
-	url = https://github.com/quanttide/quanttide-tutorial-of-communication-management.git
-[submodule "domains/course-development"]
-	path = domains/course-development
-	url = https://github.com/quanttide/quanttide-tutorial-of-course-development.git
-[submodule "domains/customer-relations"]
-	path = domains/customer-relations
-	url = https://github.com/quanttide/quanttide-tutorial-of-customer-relations.git
-[submodule "domains/customer-support"]
-	path = domains/customer-support
-	url = https://github.com/quanttide/quanttide-tutorial-of-customer-support.git
-[submodule "domains/data-engineering"]
-	path = domains/data-engineering
-	url = https://github.com/quanttide/quanttide-tutorial-of-data-engineering.git
-[submodule "domains/devops"]
-	path = domains/devops
-	url = https://github.com/quanttide/quanttide-tutorial-of-devops.git
-[submodule "domains/entrepreneurial-management"]
-	path = domains/entrepreneurial-management
-	url = https://github.com/quanttide/quanttide-tutorial-of-entrepreneurial-management.git
-[submodule "domains/execution-management"]
-	path = domains/execution-management
-	url = https://github.com/quanttide/quanttide-tutorial-of-execution-management.git
-[submodule "domains/finance-management"]
-	path = domains/finance-management
-	url = https://github.com/quanttide/quanttide-tutorial-of-finance-management.git
-[submodule "domains/founding-cloud-providers"]
-	path = domains/founding-cloud-providers
-	url = https://github.com/quanttide/quanttide-tutorial-of-founding-cloud-providers.git
-[submodule "domains/growth-management"]
-	path = domains/growth-management
-	url = https://github.com/quanttide/quanttide-tutorial-of-growth-management.git
-[submodule "domains/human-resources"]
-	path = domains/human-resources
-	url = https://github.com/quanttide/quanttide-tutorial-of-human-resources.git
-[submodule "domains/interaction-design"]
-	path = domains/interaction-design
-	url = https://github.com/quanttide/quanttide-tutorial-of-interaction-design.git
-[submodule "domains/knowledge-engineering"]
-	path = domains/knowledge-engineering
-	url = https://github.com/quanttide/quanttide-tutorial-of-knowledge-engineering.git
-[submodule "domains/knowledge-work"]
-	path = domains/knowledge-work
-	url = https://github.com/quanttide/quanttide-tutorial-of-knowledge-work.git
-[submodule "domains/learning-management"]
-	path = domains/learning-management
-	url = https://github.com/quanttide/quanttide-tutorial-of-learning-management.git
-[submodule "domains/narrative-engineering"]
-	path = domains/narrative-engineering
-	url = https://github.com/quanttide/quanttide-tutorial-of-narrative-engineering.git
-[submodule "domains/organization-management"]
-	path = domains/organization-management
-	url = https://github.com/quanttide/quanttide-tutorial-of-organization-management.git
-[submodule "domains/payment-engineering"]
-	path = domains/payment-engineering
-	url = https://github.com/quanttide/quanttide-tutorial-of-payment-engineering.git
-[submodule "domains/product-design"]
-	path = domains/product-design
-	url = https://github.com/quanttide/quanttide-tutorial-of-product-design.git
-[submodule "domains/product-development"]
-	path = domains/product-development
-	url = https://github.com/quanttide/quanttide-tutorial-of-product-development.git
-[submodule "domains/product-operations"]
-	path = domains/product-operations
-	url = https://github.com/quanttide/quanttide-tutorial-of-product-operations.git
-[submodule "domains/project-management"]
-	path = domains/project-management
-	url = https://github.com/quanttide/quanttide-tutorial-of-project-management.git
-[submodule "domains/social-media"]
-	path = domains/social-media
-	url = https://github.com/quanttide/quanttide-tutorial-of-social-media.git
-[submodule "domains/software-engineering"]
-	path = domains/software-engineering
-	url = https://github.com/quanttide/quanttide-tutorial-of-software-engineering.git
-[submodule "domains/strategy-management"]
-	path = domains/strategy-management
-	url = https://github.com/quanttide/quanttide-tutorial-of-strategy-management.git
-[submodule "domains/vibe-coding"]
-	path = domains/vibe-coding
-	url = https://github.com/quanttide/quanttide-tutorial-of-vibe-coding.git
 [submodule "default/company"]
 	path = default/company
 	url = https://github.com/quanttide/quanttide-tutorial-of-business-entity.git

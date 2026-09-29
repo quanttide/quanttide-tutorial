@@ -5,8 +5,7 @@
 ```
 quanttide-tutorial/
 ├── general/                 → 通识层：跨学科共同基础
-├── disciplines/             → 学科层：学科教程，按学科分目录
-├── domains/                 → 领域层：量潮领域教程
+├── disciplines/             → 学科层：学科教程 + 归属该学科的量潮领域教程
 ├── default/company          → 主体层：法人主体教程
 ├── README.md                → 教程清单与项目定位
 ├── AGENTS.md                → Agent 工作指南
@@ -15,7 +14,7 @@ quanttide-tutorial/
 └── CONTRIBUTING.md          → 本文件
 ```
 
-目录按**学习顺序**排列：通识 → 学科 → 领域 → 主体。新增教程时先定层：跨学科共同基础 → `general/`；外部学科训练 → `disciplines/<学科>/`；量潮领域业务本身 → `domains/`；法人主体自己的工作教程 → `default/company`。学科名以 `quanttide-specification-of-disciplines` 为准，不在本仓库自立学科。
+目录按**学习顺序**排列：通识 → 学科 → 主体。新增教程时先定层：跨学科共同基础 → `general/`；其余一律按学科进 `disciplines/<学科>/`（量潮领域教程也不例外，领域知识本就是学科的分支）；法人主体自己的工作教程 → `default/company`。学科名以 `quanttide-specification-of-disciplines` 为准，不在本仓库自立学科。
 
 ## 内容规范
 
