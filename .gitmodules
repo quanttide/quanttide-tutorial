@@ -169,6 +169,9 @@
 [submodule "disciplines/management/management"]
 	path = disciplines/management/management
 	url = https://github.com/quanttide/quanttide-tutorial-of-management.git
+[submodule "disciplines/management/market-management"]
+	path = disciplines/management/market-management
+	url = https://github.com/quanttide/quanttide-tutorial-of-market-management.git
 [submodule "disciplines/management/open-source"]
 	path = disciplines/management/open-source
 	url = https://github.com/quanttide/quanttide-tutorial-of-open-source.git

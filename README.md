@@ -31,7 +31,7 @@ general 通识  →  disciplines 学科  →  default 主体
 | 序 | 层 | 目录 | 判定标准 | 数量 |
 |:--|:--|:--|:--|--:|
 | 1 | 通识层 | `general/` | 跨学科的共同基础，不属于任何单一学科 | 3 |
-| 2 | 学科层 | `disciplines/<学科>/` | 学科训练，以及归属于该学科的量潮领域知识 | 66 |
+| 2 | 学科层 | `disciplines/<学科>/` | 学科训练，以及归属于该学科的量潮领域知识 | 67 |
 | 3 | 主体层 | `default/` | 法人主体自己的工作教程 | 1 |
 
 三条原则：
@@ -54,7 +54,7 @@ general 通识  →  disciplines 学科  →  default 主体
 | [`quanttide-tutorial-of-readme`](general/readme) | 量潮基础教程 |
 | [`quanttide-tutorial-of-writing`](general/writing) | 量潮写作教程 |
 
-### 学科层（66）
+### 学科层（67）
 
 #### 计算机科学与技术（22）
 
@@ -120,7 +120,7 @@ general 通识  →  disciplines 学科  →  default 主体
 | [`quanttide-tutorial-of-narrative-engineering`](disciplines/journalism/narrative-engineering) | 量潮叙事工程教程 |
 | [`quanttide-tutorial-of-social-media`](disciplines/journalism/social-media) | 量潮新媒体运营教程 |
 
-#### 管理学（22）
+#### 管理学（23）
 
 | 教程 | 定位 |
 |:--|:--|
@@ -139,6 +139,7 @@ general 通识  →  disciplines 学科  →  default 主体
 | [`quanttide-tutorial-of-human-resources`](disciplines/management/human-resources) | 量潮人力资源教程 |
 | [`quanttide-tutorial-of-knowledge-work`](disciplines/management/knowledge-work) | 量潮知识工作教程 |
 | [`quanttide-tutorial-of-management`](disciplines/management/management) | 量潮管理学教程 |
+| [`quanttide-tutorial-of-market-management`](disciplines/management/market-management) | 量潮营销管理教程 |
 | [`quanttide-tutorial-of-open-source`](disciplines/management/open-source) | 量潮开源管理教程 |
 | [`quanttide-tutorial-of-organization-management`](disciplines/management/organization-management) | 量潮组织管理教程 |
 | [`quanttide-tutorial-of-product-design`](disciplines/management/product-design) | 量潮产品策划教程 |
@@ -183,13 +184,13 @@ general 通识  →  disciplines 学科  →  default 主体
 ```text
 quanttide-tutorial/
 ├── general/                     # 通识层：3 个教程
-├── disciplines/                 # 学科层：按学科分目录（10 个学科，66 个教程）
+├── disciplines/                 # 学科层：按学科分目录（10 个学科，67 个教程）
 │   ├── computer-science/        # 计算机科学与技术（22）
 │   ├── design/                  # 设计学（1）
 │   ├── economics/               # 经济学（12）
 │   ├── education/               # 教育学（2）
 │   ├── journalism/              # 新闻传播学（2）
-│   ├── management/              # 管理学（22）
+│   ├── management/              # 管理学（23）
 │   ├── mathematics/             # 数学（2）
 │   ├── philosophy/              # 哲学（1）
 │   ├── psychology/              # 心理学（1）

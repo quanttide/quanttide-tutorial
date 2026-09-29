@@ -15,6 +15,7 @@
 - 目录名统一取教程仓库名去掉 `quanttide-tutorial-of-` 前缀（学科长名 / 教程长名），如 `quanttide-tutorial-of-data-engineering` → `disciplines/computer-science/data-engineering`
 - 原 `data/` 下 3 个子模块迁入 `disciplines/computer-science/`：`big-data`、`data-analytics`、`data-engineering`
 - 教程清单全量登记：挂载 70 个教程子仓库（通识 3 + 学科 66 + 主体 1）
+- 新增子模块 `disciplines/management/market-management`（营销管理教程）：从量潮科技工作教程迁出 `market/`，教程由 70 增至 71（学科 67）
 - `.gitmodules`、README 清单与结构树、AGENTS 落位表、CONTRIBUTING 结构树一律按学习顺序排列
 - README 重写：仓库定位、类型分工、分层与学习顺序、教程清单（按学科分组）、目录结构、快速开始
 
