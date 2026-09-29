@@ -1,5 +1,26 @@
 # CHANGELOG
 
+所有显著变更都将记录在此文件中。
+
+格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/)。
+
+---
+
+## [Unreleased]
+
+### 变更
+
+- 聚合容器重建：`data/` 扁平结构改为四层——`default/`（主体层）+ `domains/`（领域层）+ `disciplines/`（学科层，按学科分目录）+ `general/`（通识层）
+- 目录名统一取教程仓库名去掉 `quanttide-tutorial-of-` 前缀（长名），如 `quanttide-tutorial-of-data-engineering` → `domains/data-engineering`
+- 原 `data/` 下 3 个子模块迁入新层：`big-data`、`data-analytics` → `disciplines/computer-science/`，`data-engineering` → `domains/`
+- 教程清单全量登记：挂载 70 个教程子仓库（主体 1 + 领域 33 + 学科 33 + 通识 3）
+- README 重写：仓库定位、类型分工、分层与落位判定、教程清单（分层列表）、目录结构、快速开始
+
+### 新增
+
+- 新增分层文档：`AGENTS.md`（含分层落位判定）、`CONTRIBUTING.md`、`ROADMAP.md`
+- 新增 `LICENSE`（Apache-2.0）
+
 ## [v0.1.0] - 2026-05-23
 
 ### Added
