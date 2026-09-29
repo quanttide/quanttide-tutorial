@@ -3,7 +3,8 @@
 ## 当前阶段
 
 - [x] 仓库初始化（`data/` 下挂 3 个教程子模块）
-- [x] 聚合容器重建：分层（主体/领域/学科/通识）+ 学科分目录，70 个教程子仓库全量登记
+- [x] 聚合容器重建：分层（通识/学科/领域/主体）+ 学科分目录，70 个教程子仓库全量登记
+- [x] 明确层序即学习顺序：`general` → `disciplines` → `domains` → `default`，README/AGENTS/CONTRIBUTING 与 `.gitmodules` 一致按此排列
 - [ ] 各教程内容填充（在 `quanttide-tutorial-of-*` 子仓库内维护）
 - [ ] 未接入教程的 14 个领域补齐 `docs/tutorial` 指针：`business`、`crowd`、`delib`、`design`、`docs`、`econ`、`entrep`、`health`、`innov`、`knowl`、`relation`、`sales`、`secret`、`security`
 - [ ] 学科清单在 `quanttide-specification-of-disciplines` 落地，本仓库学科目录与之对齐
@@ -20,4 +21,4 @@
 
 ## 演进记录
 
-- 2026-09-29：聚合容器重建。`data/` 扁平结构改为四层——`default/`（主体）+ `domains/`（领域）+ `disciplines/`（学科，按学科分目录）+ `general/`（通识）；70 个教程子仓库全量登记，目录名取长名；补 README/AGENTS/CONTRIBUTING/ROADMAP/LICENSE。
+- 2026-09-29：聚合容器重建。`data/` 扁平结构改为四层，层序即学习顺序 `general`（通识）→ `disciplines`（学科，按学科分目录）→ `domains`（领域）→ `default`（主体）；70 个教程子仓库全量登记，目录名取长名；补 README/AGENTS/CONTRIBUTING/ROADMAP/LICENSE。

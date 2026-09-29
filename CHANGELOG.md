@@ -10,7 +10,8 @@
 
 ### 变更
 
-- 聚合容器重建：`data/` 扁平结构改为四层——`default/`（主体层）+ `domains/`（领域层）+ `disciplines/`（学科层，按学科分目录）+ `general/`（通识层）
+- 聚合容器重建：`data/` 扁平结构改为四层，层序即学习顺序 `general`（通识）→ `disciplines`（学科，按学科分目录）→ `domains`（领域）→ `default`（主体）
+- `.gitmodules`、README 清单与结构树、AGENTS 落位表、CONTRIBUTING 结构树一律按学习顺序排列
 - 目录名统一取教程仓库名去掉 `quanttide-tutorial-of-` 前缀（长名），如 `quanttide-tutorial-of-data-engineering` → `domains/data-engineering`
 - 原 `data/` 下 3 个子模块迁入新层：`big-data`、`data-analytics` → `disciplines/computer-science/`，`data-engineering` → `domains/`
 - 教程清单全量登记：挂载 70 个教程子仓库（主体 1 + 领域 33 + 学科 33 + 通识 3）

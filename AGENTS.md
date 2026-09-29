@@ -18,12 +18,14 @@
 
 ### 分层
 
-| 层 | 目录 | 落位判定 |
-|:--|:--|:--|
-| 主体层 | `default/company` | 法人主体自己的工作教程 |
-| 领域层 | `domains/<域长名>` | 主题 = 某个量潮领域的业务本身，与 `domains/quanttide-*` 同源 |
-| 学科层 | `disciplines/<学科>/<教程长名>` | 主题 = 外部学科训练；学科名以 `quanttide-specification-of-disciplines` 为准 |
-| 通识层 | `general/<教程长名>` | 跨学科的共同基础，不属于任何单一学科 |
+层序即**学习顺序**：`general`（通识）→ `disciplines`（学科）→ `domains`（领域）→ `default`（主体）。
+
+| 序 | 层 | 目录 | 落位判定 |
+|:--|:--|:--|:--|
+| 1 | 通识层 | `general/<教程长名>` | 跨学科的共同基础，不属于任何单一学科 |
+| 2 | 学科层 | `disciplines/<学科>/<教程长名>` | 主题 = 外部学科训练；学科名以 `quanttide-specification-of-disciplines` 为准 |
+| 3 | 领域层 | `domains/<域长名>` | 主题 = 某个量潮领域的业务本身，与 `domains/quanttide-*` 同源 |
+| 4 | 主体层 | `default/company` | 法人主体自己的工作教程 |
 
 ## 人机协作范式
 

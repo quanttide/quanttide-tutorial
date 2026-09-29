@@ -17,16 +17,23 @@
 | 档案 | 做过什么、成果如何 | `assets/quanttide-profile` |
 | 日志 | 什么时候发生了什么 | `assets/quanttide-journal` |
 
-## 分层
+## 分层与学习顺序
 
-四个层，层名即目录名：
+四个层，层名即目录名。层序即**学习顺序**：
 
-| 层 | 目录 | 判定标准 | 数量 |
-|:--|:--|:--|--:|
-| 主体层 | `default/` | 法人主体自己的工作教程 | 1 |
-| 领域层 | `domains/` | 主题 = 某个量潮领域的业务本身，与 `domains/quanttide-*` 同源 | 33 |
-| 学科层 | `disciplines/` | 主题 = 外部学科训练，目录名取学科长名 | 33 |
-| 通识层 | `general/` | 跨学科的共同基础，不属于任何单一学科 | 3 |
+```text
+general 通识  →  disciplines 学科  →  domains 领域  →  default 主体
+  共同基础         专业训练            量潮业务          主体惯例
+```
+
+先通识打底，再学科筑基，然后进入量潮领域，最后落到具体主体"我们这里怎么做"。越靠前的层越通用、越不依赖量潮；越靠后的层越专用、越贴近具体主体。
+
+| 序 | 层 | 目录 | 判定标准 | 数量 |
+|:--|:--|:--|:--|--:|
+| 1 | 通识层 | `general/` | 跨学科的共同基础，不属于任何单一学科 | 3 |
+| 2 | 学科层 | `disciplines/` | 主题 = 外部学科训练，目录名取学科长名 | 33 |
+| 3 | 领域层 | `domains/` | 主题 = 某个量潮领域的业务本身，与 `domains/quanttide-*` 同源 | 33 |
+| 4 | 主体层 | `default/` | 法人主体自己的工作教程 | 1 |
 
 三条原则：
 
@@ -36,49 +43,15 @@
 
 ## 教程清单
 
-### 主体层（1）
+按学习顺序排列。
+
+### 通识层（3）
 
 | 教程 | 定位 |
 |:--|:--|
-| [`quanttide-tutorial-of-business-entity`](default/company) | 量潮科技工作教程 |
-
-### 领域层（33）
-
-| 教程 | 定位 |
-|:--|:--|
-| [`quanttide-tutorial-of-academic-research`](domains/academic-research) | 量潮学术研究教程 |
-| [`quanttide-tutorial-of-agent-engineering`](domains/agent-engineering) | 量潮智能体工程教程 |
-| [`quanttide-tutorial-of-asset-management`](domains/asset-management) | 量潮数字资产管理教程 |
-| [`quanttide-tutorial-of-authorization-engineering`](domains/authorization-engineering) | 量潮身份认证教程 |
-| [`quanttide-tutorial-of-cognitive-engineering`](domains/cognitive-engineering) | 量潮认知工程教程 |
-| [`quanttide-tutorial-of-collaboration`](domains/collaboration) | 量潮团队协作教程 |
-| [`quanttide-tutorial-of-communication-management`](domains/communication-management) | 量潮沟通管理教程 |
-| [`quanttide-tutorial-of-course-development`](domains/course-development) | 量潮课程研发教程 |
-| [`quanttide-tutorial-of-customer-relations`](domains/customer-relations) | 量潮客户关系教程 |
-| [`quanttide-tutorial-of-customer-support`](domains/customer-support) | 量潮客户支持教程 |
-| [`quanttide-tutorial-of-data-engineering`](domains/data-engineering) | 量潮数据工程教程 |
-| [`quanttide-tutorial-of-devops`](domains/devops) | 量潮DevOps教程 |
-| [`quanttide-tutorial-of-entrepreneurial-management`](domains/entrepreneurial-management) | 量潮创业管理教程 |
-| [`quanttide-tutorial-of-execution-management`](domains/execution-management) | 量潮执行管理教程 |
-| [`quanttide-tutorial-of-finance-management`](domains/finance-management) | 量潮财务管理教程 |
-| [`quanttide-tutorial-of-founding-cloud-providers`](domains/founding-cloud-providers) | 量潮云厂商创业教程 |
-| [`quanttide-tutorial-of-growth-management`](domains/growth-management) | 量潮增长管理教程 |
-| [`quanttide-tutorial-of-human-resources`](domains/human-resources) | 量潮人力资源教程 |
-| [`quanttide-tutorial-of-interaction-design`](domains/interaction-design) | 量潮交互设计教程 |
-| [`quanttide-tutorial-of-knowledge-engineering`](domains/knowledge-engineering) | 量潮知识工程教程 |
-| [`quanttide-tutorial-of-knowledge-work`](domains/knowledge-work) | 量潮知识工作教程 |
-| [`quanttide-tutorial-of-learning-management`](domains/learning-management) | 量潮学习管理教程 |
-| [`quanttide-tutorial-of-narrative-engineering`](domains/narrative-engineering) | 量潮叙事工程教程 |
-| [`quanttide-tutorial-of-organization-management`](domains/organization-management) | 量潮组织管理教程 |
-| [`quanttide-tutorial-of-payment-engineering`](domains/payment-engineering) | 量潮支付工程教程 |
-| [`quanttide-tutorial-of-product-design`](domains/product-design) | 量潮产品策划教程 |
-| [`quanttide-tutorial-of-product-development`](domains/product-development) | 量潮产品研发教程 |
-| [`quanttide-tutorial-of-product-operations`](domains/product-operations) | 量潮产品运营教程 |
-| [`quanttide-tutorial-of-project-management`](domains/project-management) | 量潮项目管理教程 |
-| [`quanttide-tutorial-of-social-media`](domains/social-media) | 量潮新媒体运营教程 |
-| [`quanttide-tutorial-of-software-engineering`](domains/software-engineering) | 量潮软件工程教程 |
-| [`quanttide-tutorial-of-strategy-management`](domains/strategy-management) | 量潮战略管理教程 |
-| [`quanttide-tutorial-of-vibe-coding`](domains/vibe-coding) | 量潮氛围编程教程 |
+| [`quanttide-tutorial-of-markdown`](general/markdown) | 量潮Markdown教程 |
+| [`quanttide-tutorial-of-readme`](general/readme) | 量潮基础教程 |
+| [`quanttide-tutorial-of-writing`](general/writing) | 量潮写作教程 |
 
 ### 学科层（33）
 
@@ -118,34 +91,70 @@
 | 哲学 | [`quanttide-tutorial-of-philosophy`](disciplines/philosophy/philosophy) | 量潮哲学教程 |
 | 社会学 | [`quanttide-tutorial-of-social-work`](disciplines/sociology/social-work) | 量潮社会工作教程 |
 
-### 通识层（3）
+### 领域层（33）
 
 | 教程 | 定位 |
 |:--|:--|
-| [`quanttide-tutorial-of-markdown`](general/markdown) | 量潮Markdown教程 |
-| [`quanttide-tutorial-of-readme`](general/readme) | 量潮基础教程 |
-| [`quanttide-tutorial-of-writing`](general/writing) | 量潮写作教程 |
+| [`quanttide-tutorial-of-academic-research`](domains/academic-research) | 量潮学术研究教程 |
+| [`quanttide-tutorial-of-agent-engineering`](domains/agent-engineering) | 量潮智能体工程教程 |
+| [`quanttide-tutorial-of-asset-management`](domains/asset-management) | 量潮数字资产管理教程 |
+| [`quanttide-tutorial-of-authorization-engineering`](domains/authorization-engineering) | 量潮身份认证教程 |
+| [`quanttide-tutorial-of-cognitive-engineering`](domains/cognitive-engineering) | 量潮认知工程教程 |
+| [`quanttide-tutorial-of-collaboration`](domains/collaboration) | 量潮团队协作教程 |
+| [`quanttide-tutorial-of-communication-management`](domains/communication-management) | 量潮沟通管理教程 |
+| [`quanttide-tutorial-of-course-development`](domains/course-development) | 量潮课程研发教程 |
+| [`quanttide-tutorial-of-customer-relations`](domains/customer-relations) | 量潮客户关系教程 |
+| [`quanttide-tutorial-of-customer-support`](domains/customer-support) | 量潮客户支持教程 |
+| [`quanttide-tutorial-of-data-engineering`](domains/data-engineering) | 量潮数据工程教程 |
+| [`quanttide-tutorial-of-devops`](domains/devops) | 量潮DevOps教程 |
+| [`quanttide-tutorial-of-entrepreneurial-management`](domains/entrepreneurial-management) | 量潮创业管理教程 |
+| [`quanttide-tutorial-of-execution-management`](domains/execution-management) | 量潮执行管理教程 |
+| [`quanttide-tutorial-of-finance-management`](domains/finance-management) | 量潮财务管理教程 |
+| [`quanttide-tutorial-of-founding-cloud-providers`](domains/founding-cloud-providers) | 量潮云厂商创业教程 |
+| [`quanttide-tutorial-of-growth-management`](domains/growth-management) | 量潮增长管理教程 |
+| [`quanttide-tutorial-of-human-resources`](domains/human-resources) | 量潮人力资源教程 |
+| [`quanttide-tutorial-of-interaction-design`](domains/interaction-design) | 量潮交互设计教程 |
+| [`quanttide-tutorial-of-knowledge-engineering`](domains/knowledge-engineering) | 量潮知识工程教程 |
+| [`quanttide-tutorial-of-knowledge-work`](domains/knowledge-work) | 量潮知识工作教程 |
+| [`quanttide-tutorial-of-learning-management`](domains/learning-management) | 量潮学习管理教程 |
+| [`quanttide-tutorial-of-narrative-engineering`](domains/narrative-engineering) | 量潮叙事工程教程 |
+| [`quanttide-tutorial-of-organization-management`](domains/organization-management) | 量潮组织管理教程 |
+| [`quanttide-tutorial-of-payment-engineering`](domains/payment-engineering) | 量潮支付工程教程 |
+| [`quanttide-tutorial-of-product-design`](domains/product-design) | 量潮产品策划教程 |
+| [`quanttide-tutorial-of-product-development`](domains/product-development) | 量潮产品研发教程 |
+| [`quanttide-tutorial-of-product-operations`](domains/product-operations) | 量潮产品运营教程 |
+| [`quanttide-tutorial-of-project-management`](domains/project-management) | 量潮项目管理教程 |
+| [`quanttide-tutorial-of-social-media`](domains/social-media) | 量潮新媒体运营教程 |
+| [`quanttide-tutorial-of-software-engineering`](domains/software-engineering) | 量潮软件工程教程 |
+| [`quanttide-tutorial-of-strategy-management`](domains/strategy-management) | 量潮战略管理教程 |
+| [`quanttide-tutorial-of-vibe-coding`](domains/vibe-coding) | 量潮氛围编程教程 |
+
+### 主体层（1）
+
+| 教程 | 定位 |
+|:--|:--|
+| [`quanttide-tutorial-of-business-entity`](default/company) | 量潮科技工作教程 |
 
 ## 目录结构
 
 ```text
 quanttide-tutorial/
-├── default/                 # 主体层：company
-├── domains/                 # 领域层：33 个领域教程（见上表）
-├── disciplines/             # 学科层：按学科分目录
-│   ├── computer-science/    # 计算机科学与技术（15）
-│   ├── economics/           # 经济学（11）
-│   ├── management/          # 管理学（3）
-│   ├── mathematics/         # 数学（2）
-│   ├── philosophy/          # 哲学（1）
-│   └── sociology/           # 社会学（1）
-├── general/                 # 通识层：markdown、readme、writing
-├── AGENTS.md                # 智能体约定
-├── CHANGELOG.md             # 版本变更记录
-├── CONTRIBUTING.md          # 贡献指南
-├── LICENSE                  # Apache-2.0 许可证
-├── README.md                # 本文件
-└── ROADMAP.md               # 路线图
+├── general/               # 通识层：markdown、readme、writing
+├── disciplines/           # 学科层：按学科分目录
+│   ├── computer-science/  # 计算机科学与技术（15）
+│   ├── economics/         # 经济学（11）
+│   ├── management/        # 管理学（3）
+│   ├── mathematics/       # 数学（2）
+│   ├── philosophy/        # 哲学（1）
+│   └── sociology/         # 社会学（1）
+├── domains/               # 领域层：33 个领域教程（见上表）
+├── default/               # 主体层：company
+├── AGENTS.md              # 智能体约定
+├── CHANGELOG.md           # 版本变更记录
+├── CONTRIBUTING.md        # 贡献指南
+├── LICENSE                # Apache-2.0 许可证
+├── README.md              # 本文件
+└── ROADMAP.md             # 路线图
 ```
 
 ## 快速开始
