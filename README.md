@@ -161,7 +161,7 @@ general 通识  →  disciplines 学科  →  default 主体
 
 | 教程 | 定位 |
 |:--|:--|
-| [`quanttide-tutorial-of-philosophy`](disciplines/philosophy/philosophy) | 量潮哲学教程 |
+| [`quanttide-tutorial-of-meta-engineering`](disciplines/philosophy/philosophy) | 量潮哲学教程 |
 
 #### 心理学（1）
 
