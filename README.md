@@ -32,7 +32,7 @@ intro 通识  →  middle 中级  →  advanced 高级  →  default 主体
 |:--|:--|:--|:--|--:|
 | 1 | 通识层 | `intro/` | 不需要专业前置，任何背景都能直接学 | 4 |
 | 2 | 中级层 | `middle/` | 需要一门专业前置（工程栈、方法论） | 58 |
-| 3 | 高级层 | `advanced/` | 需要理论或架构级前置 | 10 |
+| 3 | 高级层 | `advanced/` | 需要理论或架构级前置 | 11 |
 | 4 | 主体层 | `default/` | 法人主体自己的工作教程 | 1 |
 
 三条原则：
@@ -166,9 +166,9 @@ intro 通识  →  middle 中级  →  advanced 高级  →  default 主体
 |:--|:--|
 | [`quanttide-tutorial-of-social-work`](middle/social-work) | 量潮社会工作教程 |
 
-### 高级层 advanced（10）
+### 高级层 advanced（11）
 
-共 10 个。按学科分组（学科不落目录，分类在此承载）：
+共 11 个。按学科分组（学科不落目录，分类在此承载）：
 
 #### 计算机科学与技术（4）
 
@@ -195,6 +195,12 @@ intro 通识  →  middle 中级  →  advanced 高级  →  default 主体
 |:--|:--|
 | [`quanttide-tutorial-of-fourier-analysis`](advanced/fourier-analysis) | 量潮傅里叶分析教程 |
 
+#### 军事学（1）
+
+| 教程 | 定位 |
+|:--|:--|
+| [`quanttide-tutorial-of-war-gaming`](advanced/war-gaming) | 量潮兵旗推演教程 |
+
 ### 主体层 default（1）
 
 | 教程 | 定位 |
@@ -207,7 +213,7 @@ intro 通识  →  middle 中级  →  advanced 高级  →  default 主体
 quanttide-tutorial/
 ├── intro/                      # 通识层：4 个教程
 ├── middle/                     # 中级层：58 个教程（学科分类见教程清单）
-├── advanced/                   # 高级层：10 个教程（学科分类见教程清单）
+├── advanced/                   # 高级层：11 个教程（学科分类见教程清单）
 ├── default/                    # 主体层：company
 ├── AGENTS.md                   # 智能体约定
 ├── CHANGELOG.md                # 版本变更记录

@@ -12,6 +12,12 @@
 
 - 子模块改名：`middle/philosophy` → `middle/meta-engineering`（量潮元工程教程），目录与仓库名（`quanttide-tutorial-of-meta-engineering`）对齐；原哲学教程待需要时另行新建
 
+## [Unreleased]
+
+### 新增
+
+- 新增子模块 `advanced/war-gaming`（量潮兵旗推演教程）：教程由 73 增至 74（高级层 10 → 11，军事学分组）
+
 ## [0.3.0] - 2026-10-30
 
 ### 变更
