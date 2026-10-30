@@ -70,8 +70,8 @@
 [submodule "disciplines/computer-science/software-engineering"]
 	path = disciplines/computer-science/software-engineering
 	url = https://github.com/quanttide/quanttide-tutorial-of-software-engineering.git
-[submodule "disciplines/computer-science/vibe-coding"]
-	path = disciplines/computer-science/vibe-coding
+[submodule "general/vibe-coding"]
+	path = general/vibe-coding
 	url = https://github.com/quanttide/quanttide-tutorial-of-vibe-coding.git
 [submodule "disciplines/design/interaction-design"]
 	path = disciplines/design/interaction-design

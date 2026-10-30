@@ -30,8 +30,8 @@ general 通识  →  disciplines 学科  →  default 主体
 
 | 序 | 层 | 目录 | 判定标准 | 数量 |
 |:--|:--|:--|:--|--:|
-| 1 | 通识层 | `general/` | 跨学科的共同基础，不属于任何单一学科 | 3 |
-| 2 | 学科层 | `disciplines/<学科>/` | 学科训练，以及归属于该学科的量潮领域知识 | 69 |
+| 1 | 通识层 | `general/` | 跨学科的共同基础，不属于任何单一学科 | 4 |
+| 2 | 学科层 | `disciplines/<学科>/` | 学科训练，以及归属于该学科的量潮领域知识 | 68 |
 | 3 | 主体层 | `default/` | 法人主体自己的工作教程 | 1 |
 
 三条原则：
@@ -46,17 +46,18 @@ general 通识  →  disciplines 学科  →  default 主体
 
 按学习顺序排列。
 
-### 通识层（3）
+### 通识层（4）
 
 | 教程 | 定位 |
 |:--|:--|
 | [`quanttide-tutorial-of-markdown`](general/markdown) | 量潮Markdown教程 |
 | [`quanttide-tutorial-of-readme`](general/readme) | 量潮基础教程 |
+| [`quanttide-tutorial-of-vibe-coding`](general/vibe-coding) | 量潮氛围编程教程 |
 | [`quanttide-tutorial-of-writing`](general/writing) | 量潮写作教程 |
 
-### 学科层（69）
+### 学科层（68）
 
-#### 计算机科学与技术（22）
+#### 计算机科学与技术（21）
 
 | 教程 | 定位 |
 |:--|:--|
@@ -81,7 +82,6 @@ general 通识  →  disciplines 学科  →  default 主体
 | [`quanttide-tutorial-of-operating-systems`](disciplines/computer-science/operating-systems) | 量潮操作系统教程 |
 | [`quanttide-tutorial-of-python`](disciplines/computer-science/python) | 量潮Python教程 |
 | [`quanttide-tutorial-of-software-engineering`](disciplines/computer-science/software-engineering) | 量潮软件工程教程 |
-| [`quanttide-tutorial-of-vibe-coding`](disciplines/computer-science/vibe-coding) | 量潮氛围编程教程 |
 
 #### 设计学（1）
 
@@ -185,9 +185,9 @@ general 通识  →  disciplines 学科  →  default 主体
 
 ```text
 quanttide-tutorial/
-├── general/                     # 通识层：3 个教程
-├── disciplines/                 # 学科层：按学科分目录（10 个学科，69 个教程）
-│   ├── computer-science/        # 计算机科学与技术（22）
+├── general/                     # 通识层：4 个教程
+├── disciplines/                 # 学科层：按学科分目录（10 个学科，68 个教程）
+│   ├── computer-science/        # 计算机科学与技术（21）
 │   ├── design/                  # 设计学（1）
 │   ├── economics/               # 经济学（12）
 │   ├── education/               # 教育学（2）

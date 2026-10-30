@@ -6,6 +6,12 @@
 
 ---
 
+## [未发布]
+
+### 变更
+
+- 子模块移层：`disciplines/computer-science/vibe-coding`（氛围编程教程）迁入通识层 `general/vibe-coding`，通识层 3 → 4，学科层 69 → 68（计算机科学与技术 22 → 21）
+
 ## [0.2.0] - 2026-09-29
 
 ### 变更
