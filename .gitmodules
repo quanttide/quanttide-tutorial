@@ -22,9 +22,9 @@
 [submodule "middle/building-cloud-services"]
 	path = middle/building-cloud-services
 	url = https://github.com/quanttide/quanttide-tutorial-of-building-cloud-services.git
-[submodule "middle/cloud-computing"]
-	path = middle/cloud-computing
-	url = https://github.com/quanttide/quanttide-tutorial-of-cloud-computing.git
+[submodule "middle/infrastructure"]
+	path = middle/infrastructure
+	url = https://github.com/quanttide/quanttide-tutorial-of-infrastructure.git
 [submodule "middle/computer-fundamentals"]
 	path = middle/computer-fundamentals
 	url = https://github.com/quanttide/quanttide-tutorial-of-computer-fundamentals.git

@@ -67,7 +67,7 @@ intro 通识  →  middle 中级  →  advanced 高级  →  default 主体
 | [`quanttide-tutorial-of-flutter`](middle/flutter) | 量潮Flutter教程 |
 | [`quanttide-tutorial-of-python`](middle/python) | 量潮Python教程 |
 | [`quanttide-tutorial-of-building-cloud-services`](middle/building-cloud-services) | 量潮云服务研发教程 |
-| [`quanttide-tutorial-of-cloud-computing`](middle/cloud-computing) | 量潮云计算教程 |
+| [`quanttide-tutorial-of-infrastructure`](middle/infrastructure) | 量潮基础设施教程 |
 | [`quanttide-tutorial-of-big-data`](middle/big-data) | 量潮大数据教程 |
 | [`quanttide-tutorial-of-microservices`](middle/microservices) | 量潮微服务教程 |
 | [`quanttide-tutorial-of-operating-systems`](middle/operating-systems) | 量潮操作系统教程 |

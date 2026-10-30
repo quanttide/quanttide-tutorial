@@ -14,6 +14,11 @@
 
 ## [Unreleased]
 
+### 变更
+
+- 子模块改名：`middle/cloud-computing` → `middle/infrastructure`（量潮基础设施教程），仓库 `quanttide-tutorial-of-cloud-computing` → `quanttide-tutorial-of-infrastructure`，README 清单同步
+
+
 ### 新增
 
 - 新增子模块 `advanced/war-gaming`（量潮兵旗推演教程）：教程由 73 增至 74（高级层 10 → 11，军事学分组）
