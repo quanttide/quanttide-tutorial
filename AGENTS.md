@@ -6,7 +6,7 @@
 
 ### 项目定位
 
-量潮教程（quanttide-tutorial）是量潮知识管理体系中教程的**聚合容器**（主体轴/Who it is + 领域轴/What it expresses），采用 Git 子模块架构按学科聚合各教程仓库，兼收各法人主体与量潮领域的教程。
+量潮教程（quanttide-tutorial）是量潮知识管理体系中教程的**聚合容器**（主体轴/Who it is + 领域轴/What it expresses），采用 Git 子模块架构按**难度分层**聚合各教程仓库，兼收各法人主体与量潮领域的教程。
 
 ### 子模块管理
 
@@ -14,20 +14,22 @@
 - **禁止**：直接在父仓库修改子模块文件
 - **必须**：在子模块仓库独立提交推送，父仓库只更新引用
 - **新增子模块**：按层落位，并同步更新 README.md 教程清单与 CHANGELOG.md
-- **目录命名**：目录名一律取教程仓库名去掉 `quanttide-tutorial-of-` 前缀（学科长名 / 教程长名），如 `quanttide-tutorial-of-data-engineering` → `disciplines/computer-science/data-engineering`
+- **目录命名**：目录名一律取教程仓库名去掉 `quanttide-tutorial-of-` 前缀，直接放层目录下（不设学科二级目录），如 `quanttide-tutorial-of-data-engineering` → `advanced/data-engineering`
 
 ### 分层
 
-层序即**学习顺序**：`general`（通识）→ `disciplines`（学科）→ `default`（主体）。
+层序即**学习顺序**，按**前置门槛**分层：`intro`（通识）→ `middle`（中级）→ `advanced`（高级）→ `default`（主体）。
 
 | 序 | 层 | 目录 | 落位判定 |
 |:--|:--|:--|:--|
-| 1 | 通识层 | `general/<教程长名>` | 跨学科的共同基础，不属于任何单一学科 |
-| 2 | 学科层 | `disciplines/<学科>/<教程长名>` | 学科训练，以及归属于该学科的量潮领域知识 |
-| 3 | 主体层 | `default/company` | 法人主体自己的工作教程 |
+| 1 | 通识层 | `intro/<教程长名>` | 不需要专业前置，任何背景都能直接学 |
+| 2 | 中级层 | `middle/<教程长名>` | 需要一门专业前置（工程栈、方法论） |
+| 3 | 高级层 | `advanced/<教程长名>` | 需要理论或架构级前置 |
+| 4 | 主体层 | `default/company` | 法人主体自己的工作教程 |
 
-- **不设领域层**：量潮领域知识本身就是学科的分支，按学科归入 `disciplines/`；领域轴由根仓库的 `domains/quanttide-*` 承载，本仓库不重复一遍
-- 学科名以 `quanttide-specification-of-disciplines`（量潮学科分类标准）为准，不在本仓库自立学科
+- **目录只有层，不设学科目录**：学科分类由 README.md 教程清单承载（按学科分组呈现），不落成目录
+- **不设领域层**：量潮领域知识由根仓库的 `domains/quanttide-*` 承载，本仓库不重复一遍
+- 学科分组以 `quanttide-specification-of-disciplines`（量潮学科分类标准）为参照，不在本仓库自立学科
 
 ## 人机协作范式
 

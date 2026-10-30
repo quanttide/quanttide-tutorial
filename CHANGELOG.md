@@ -10,7 +10,11 @@
 
 ### 变更
 
-- 子模块移层：`disciplines/computer-science/vibe-coding`（氛围编程教程）迁入通识层 `general/vibe-coding`，通识层 3 → 4，学科层 69 → 68（计算机科学与技术 22 → 21）
+- 分层重划：由「通识/学科/主体」三层改为按**前置门槛**的四层——`intro`（通识，无前置）→ `middle`（中级，一门前置）→ `advanced`（高级，理论/架构前置）→ `default`（主体）
+- 取消学科二级目录：原 `disciplines/<学科>/` 拆平，68 个学科教程直接落层目录（`middle/` 58 个、`advanced/` 10 个）；`general/` 4 个教程并入 `intro/`
+- 学科分类改由 README 教程清单承载（按学科分组呈现），不再落成目录
+- 子模块移层：`disciplines/computer-science/vibe-coding`（氛围编程教程）迁入通识层，用词统一为「氛围编程」
+- README、AGENTS.md、CONTRIBUTING.md 分层说明与结构树同步重写
 
 ## [0.2.0] - 2026-09-29
 
