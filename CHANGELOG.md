@@ -6,6 +6,12 @@
 
 ---
 
+## [未发布]
+
+### 变更
+
+- 子模块改名：`middle/philosophy` → `middle/meta-engineering`（量潮元工程教程），目录与仓库名（`quanttide-tutorial-of-meta-engineering`）对齐；原哲学教程待需要时另行新建
+
 ## [0.3.0] - 2026-10-30
 
 ### 变更

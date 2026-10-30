@@ -148,11 +148,11 @@ intro 通识  →  middle 中级  →  advanced 高级  →  default 主体
 |:--|:--|
 | [`quanttide-tutorial-of-introduction-to-calculus`](middle/introduction-to-calculus) | 量潮微积分教程（量潮高等数学教程） |
 
-#### 哲学（1）
+#### 元工程（1）
 
 | 教程 | 定位 |
 |:--|:--|
-| [`quanttide-tutorial-of-meta-engineering`](middle/philosophy) | 量潮哲学教程 |
+| [`quanttide-tutorial-of-meta-engineering`](middle/meta-engineering) | 量潮元工程教程 |
 
 #### 心理学（1）
 

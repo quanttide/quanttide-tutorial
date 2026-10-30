@@ -205,8 +205,8 @@
 [submodule "middle/introduction-to-calculus"]
 	path = middle/introduction-to-calculus
 	url = https://github.com/quanttide/quanttide-tutorial-of-introduction-to-calculus.git
-[submodule "middle/philosophy"]
-	path = middle/philosophy
+[submodule "middle/meta-engineering"]
+	path = middle/meta-engineering
 	url = https://github.com/quanttide/quanttide-tutorial-of-meta-engineering.git
 [submodule "middle/cognitive-engineering"]
 	path = middle/cognitive-engineering
