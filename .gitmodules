@@ -220,3 +220,6 @@
 [submodule "advanced/war-gaming"]
 	path = advanced/war-gaming
 	url = https://github.com/quanttide/quanttide-tutorial-of-war-gaming.git
+[submodule "intro/investor-relations"]
+	path = intro/investor-relations
+	url = https://github.com/quanttide/quanttide-tutorial-of-investor-relations.git

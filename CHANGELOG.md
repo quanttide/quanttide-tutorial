@@ -21,6 +21,7 @@
 
 ### 新增
 
+- 新增子模块 `intro/investor-relations`（量潮投资者关系教程）：教程由 74 增至 75（通识层 4 → 5）；首篇《怎么根据问题判断投资人的水平与偏好》
 - 新增子模块 `advanced/war-gaming`（量潮兵旗推演教程）：教程由 73 增至 74（高级层 10 → 11，军事学分组）
 - `advanced/war-gaming` `intro/` 三部曲迁入：兵棋推演入门、用真实历史造一盘棋、反事实推演，自 `quanttide-tutorial-of-founder` 的 `war/` 分区迁出
 

@@ -30,7 +30,7 @@ intro 通识  →  middle 中级  →  advanced 高级  →  default 主体
 
 | 序 | 层 | 目录 | 判定标准 | 数量 |
 |:--|:--|:--|:--|--:|
-| 1 | 通识层 | `intro/` | 不需要专业前置，任何背景都能直接学 | 4 |
+| 1 | 通识层 | `intro/` | 不需要专业前置，任何背景都能直接学 | 5 |
 | 2 | 中级层 | `middle/` | 需要一门专业前置（工程栈、方法论） | 58 |
 | 3 | 高级层 | `advanced/` | 需要理论或架构级前置 | 11 |
 | 4 | 主体层 | `default/` | 法人主体自己的工作教程 | 1 |
@@ -45,7 +45,7 @@ intro 通识  →  middle 中级  →  advanced 高级  →  default 主体
 
 按学习顺序排列。中级与高级层内按学科分组；学科划分以 `quanttide-specification-of-disciplines`（量潮学科分类标准）为参照，本仓库只引用，不自立学科。
 
-### 通识层 intro（4）
+### 通识层 intro（5）
 
 | 教程 | 定位 |
 |:--|:--|
@@ -53,6 +53,7 @@ intro 通识  →  middle 中级  →  advanced 高级  →  default 主体
 | [`quanttide-tutorial-of-writing`](intro/writing) | 量潮写作教程 |
 | [`quanttide-tutorial-of-readme`](intro/readme) | 量潮基础教程 |
 | [`quanttide-tutorial-of-vibe-coding`](intro/vibe-coding) | 量潮氛围编程教程 |
+| [`quanttide-tutorial-of-investor-relations`](intro/investor-relations) | 量潮投资者关系教程 |
 
 ### 中级层 middle（58）
 
@@ -211,7 +212,7 @@ intro 通识  →  middle 中级  →  advanced 高级  →  default 主体
 
 ```text
 quanttide-tutorial/
-├── intro/                      # 通识层：4 个教程
+├── intro/                      # 通识层：5 个教程
 ├── middle/                     # 中级层：58 个教程（学科分类见教程清单）
 ├── advanced/                   # 高级层：11 个教程（学科分类见教程清单）
 ├── default/                    # 主体层：company
